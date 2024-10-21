@@ -95,7 +95,12 @@
   color: orangered;
   font-weight: bolder;
 }
-
+.box {
+  border: 3px solid orangered;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
