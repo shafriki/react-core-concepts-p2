@@ -8,10 +8,16 @@ export default function Counter() {
         const newCount = count + 1;
         setCount(newCount)
     }
+
+    const handleRemove = () => {
+        const newCount = count -1
+        setCount(newCount)
+    }
     return (
         <div className='counter'>
             <h3>Counter: {count} </h3>
             <button onClick={handleADD}>ADD</button>
+            <button onClick={handleRemove}>REMOVE</button>
         </div>
     )
 }

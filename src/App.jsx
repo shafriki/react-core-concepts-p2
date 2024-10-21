@@ -1,5 +1,7 @@
 import './App.css'
 import Counter from './Counter';
+import Team from './Team';
+
 function App() {
 
   function clickMe() {
@@ -15,6 +17,7 @@ function App() {
   }
   return (
     <>
+    <Team></Team>
     <Counter></Counter>
       <button onClick={clickMe} className='btn'>click me</button>
       <button onDoubleClick={handleClick} className='btn-2'>Click me 2x</button>
