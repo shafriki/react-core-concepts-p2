@@ -1,5 +1,5 @@
 import './App.css'
-
+import Counter from './Counter';
 function App() {
 
   function clickMe() {
@@ -15,6 +15,7 @@ function App() {
   }
   return (
     <>
+    <Counter></Counter>
       <button onClick={clickMe} className='btn'>click me</button>
       <button onDoubleClick={handleClick} className='btn-2'>Click me 2x</button>
       <button onClick={ () => toAdd(5)} className='btn-3'>Add Number</button>

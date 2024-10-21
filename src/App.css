@@ -47,6 +47,29 @@
   color: black;
   transition: 0.2s;
 }
+.counter {
+  border: 3px solid purple;
+  margin-bottom: 20px;
+  padding: 13px;
+  background-color: pink;
+  color: black;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 26px;
+
+}
+.counter button {
+  background-color: purple;
+  font-size: 17px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.counter button:hover{
+  background-color: whitesmoke;
+  color: purple;
+  font-weight: bold;
+  transition: 0.3s;
+}
 
 @keyframes logo-spin {
   from {
