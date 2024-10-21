@@ -18,6 +18,36 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.btn {
+  margin-right: 10px;
+  background-color: palevioletred;
+  border: none;
+
+}
+.btn-2 {
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  margin-right: 10px;
+}
+.btn-3 {
+  background-color: rosybrown;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+.btn-2:hover {
+  background-color: palevioletred;
+  color: white;
+  transition: 0.2s;
+
+}
+.btn:hover {
+  background-color: whitesmoke;
+  color: black;
+  transition: 0.2s;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
